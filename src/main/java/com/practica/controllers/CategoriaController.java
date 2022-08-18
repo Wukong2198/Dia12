@@ -32,7 +32,7 @@ public class CategoriaController {
 	
 	@PostMapping
 	public Categoria guardar (@RequestBody Categoria categoria){
-		return categoriaService.create(categoria);
+		return categoriaService.save(categoria);
 		
 	}
 	
